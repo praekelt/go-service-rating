@@ -1,0 +1,13 @@
+{
+    "name": "servicerating_qa",
+    "env": "qa",
+    "metric_store": "momconnectkzn_qa",
+    "endpoints": {"sms": {"delivery_class": "sms"}},
+    "channel": "*120*8864*1463#",
+    "conversation_key": "eb2a2534e8e842088cb94f903a8e36be",
+    "rating_store": {
+        "username": "test_user",
+        "api_key": "test_key",
+        "url": "http://qa-momconnect.za.prk-host.net/api/v1/"
+    }
+}
