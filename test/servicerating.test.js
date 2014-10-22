@@ -252,8 +252,6 @@ describe("app", function() {
             });
         });
 
-        // gsvr: I notice we never test the logging of the servicerating
-
         describe("when the user answers their privacy rating", function() {
             it("should send them an sms thanking them for their rating", function() {
                 return tester
